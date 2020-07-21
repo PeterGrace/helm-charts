@@ -179,6 +179,7 @@ service:
   nodePort: ""
   annotations: {}
   httpPortName: http
+  externalTrafficPolicy: Cluster
   transportPortName: transport
   loadBalancerIP: ""
   loadBalancerSourceRanges: []
